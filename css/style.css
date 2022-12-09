@@ -1,0 +1,20 @@
+body {
+    background-color: #cecdcd;
+}
+
+#caixa-principal {
+    width: 40%;
+    background-color: #81e63e;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+
+button:active {
+    border-color: #000000 !important ;
+    color: #000000 !important;
+}
+
+@media only screen and (max-width: 900px) {
+    #caixa-principal {
+        width: 100%;
+    }
+}
